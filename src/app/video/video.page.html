@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar id="tooly">
+    <!--<div text-center>
+    <ion-label class="mainTitle" ion-button href="home">tristangray.space</ion-label> 
+    <ion-label class="subTitle">Video Projects</ion-label>
+    </div> -->       
+    
+    <a ion-title routerLink="/home" class="mainTitle" slot="start">
+        <ion-title>tristangray.space<span class="home">/home</span></ion-title>
+    </a>     
+   <!-- <ion-title class="subTitle" slot="end">  
+        Video
+    </ion-title>     -->
+
+    <ion-buttons slot="end">
+      <ion-menu-button class="menu"></ion-menu-button>
+    </ion-buttons>  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<!--
+    <iframe src="https://player.vimeo.com/video/39728347" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    -->
+    <!-- <iframe [src]="[v.vimeoURL]" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+            </iframe>-->
+    <!-- <ion-label>{{v.vimeoID}}</ion-label> -->
+    
+   <!-- <ion-list no-lines *ngFor="let v of videos">
+        <ion-item flex>
+            <ion-label class="name">{{v.name}}</ion-label>       
+            <iframe [src]="getURL([v.vimeoID])" width="320" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+            </iframe> 
+            <ion-label class="text">{{v.shortText}}</ion-label> 
+        </ion-item> 
+    </ion-list>  -->
+
+<!-- width="320" height="240" -->
+<!-- <div class="backdrop">video</div>-->
+<ion-grid>
+<ion-row justify-content-around>
+    <ion-list no-lines *ngFor="let p of videoProjects; let i = index">
+        <ion-col col-6 col-md-4 col-xl-3> 
+        <!-- <ion-card class="spacecard" text-wrap (click)="navTo(i)"> -->
+            <ion-card class="spacecard" text-wrap (click)="navTo(p.vimeoID)">
+           <!-- <iframe class="vimeoframe" [src]="getURL([v.vimeoID])" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+            </iframe> 
+            <ion-card-content text-wrap>
+            <ion-card-subtitle class="shortText">{{v.shortText}}</ion-card-subtitle>     
+            <ion-card-title class="title">{{v.name}}</ion-card-title>
+            <p class="longText" text-wrap>{{v.longText}}</p>
+            </ion-card-content> 
+            </ion-card> -->
+          
+          <!--   <p class="longText" text-wrap id="longText" (load)="parse([v])"></p>    ->
+           <!-- <iframe [src]="[v.vimeoURL]" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+            </iframe>-->
+            <!-- <ion-label>{{v.vimeoID}}</ion-label> -->
+            <!--<div *ngIf="isImg(v.image); then image else placeholder"></div>
+            <img #image class="imgframe" [src]="v.image">
+            <img #placeholder class="imgframe" src="../../assets/imgs/spaceOdd.jpg"> -->
+            <img *ngIf="!p.coverImage" class="imgframe" src="../../assets/imgs/spaceOdd.jpg">
+            <img *ngIf="p.coverImage" class="imgframe" [src]="p.coverImage">
+            <div class="card-title">{{p.shortText}}</div>
+            <div class="card-subtitle">{{p.name}}</div>    
+        </ion-card>  
+        </ion-col>
+    </ion-list> 
+</ion-row>
+</ion-grid>
+    
+    <div class="floaters">
+        
+        <ion-button route-direction="root" routerLink="/home">
+            <ion-icon name="rocket"></ion-icon>
+            Home
+        </ion-button>  
+
+        <ion-button route-direction="forward" routerLink="/code">
+            <ion-icon name="code"></ion-icon>
+            Code
+        </ion-button> 
+        
+        </div> 
+    
+</ion-content>

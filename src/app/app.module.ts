@@ -8,6 +8,12 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+
+//import { ServiceWorkerModule } from '@angular/service-worker';
+//import { ENV } from '@env';
+
+import { ProjectService } from './project.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,12 +21,16 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    // ENV.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
+  //  ServiceWorkerModule.register('/ngsw-worker.js', { enabled: ENV.production })  
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    ProjectService
   ],
   bootstrap: [AppComponent]
 })

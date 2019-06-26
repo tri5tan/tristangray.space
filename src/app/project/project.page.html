@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar class="menu">
+    <!--
+        <button ion-button icon-only (click)="gotoCode()">
+            <ion-icon name="arrow-back"></ion-icon>
+        </button> -->
+    <ion-buttons slot="start" >
+        <ion-back-button></ion-back-button>
+    </ion-buttons> 
+      
+    <ion-title>{{project?.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<!--<div class="backdrop">{{project?.shortText}}</div>-->
+
+ 
+    <!--<div class="topContainer">
+        <ion-row justify-content-center>
+        <ion-col> -->
+    <ion-grid no-padding>
+        <ion-row padding-bottom justify-content-around>
+            <ion-col>
+            <div class="projectbox" *ngIf="project?.vimeoID"> <!-- <ion-card *ngIf="project?.vimeoID">-->
+                <iframe class="vimeoframe" [src]="getURL([project?.vimeoID])" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                </iframe>
+                <div class="under">
+                    <div class="under-subtitle">{{project?.shortText}}</div>        
+                    <div class="under-title">{{project?.name}}</div>
+                    <!--<div class="under-text">{{pr oject?.longText}}</div> -->
+                    <div class="under-text" [innerHtml]="project?.longText"></div>
+                    <a href="{{project?.vimeoURL}}" target="_blank" >Watch on Vimeo</a>
+                </div>
+            </div> <!-- <ion-card-content></ion-card-content>  </ion-card> -->
+
+            <div class="projectbox" *ngIf="!project.vimeoID"> <!-- <ion-card *ngIf="!project.vimeoID" class="card-background-page"> -->
+                <img class="imgframe" [src]="project?.mainImage">
+                <div class="under">
+                    <div class="under-subtitle">{{project?.shortText}}</div>
+                    <div class="under-title">{{project?.name}}</div>
+                    <!--<div class="under-text">{{pr oject?.longText}}</div> -->
+                    <div class="under-text" [innerHtml]="project?.longText"></div>
+                </div>    
+            </div> <!-- </ion-card> -->
+             
+            </ion-col>    
+        </ion-row>  <!--  -->
+        <!--</div> -->
+   </ion-grid>
+    
+  <ion-grid class="projectgrid" no-padding>  
+        <!-- <div class="bottomContainer"> -->        
+          <ion-row padding-top justify-content-around>                   
+            <ion-list class="projectlist" *ngFor="let img of project?.images">    
+                <ion-col>    
+                    <img [src]="img">    
+                </ion-col>   
+            </ion-list>
+          </ion-row>            
+        <!--   </div> -->
+    
+    
+</ion-grid>
+    
+    
+    <div class="floaters">
+        
+        <ion-button route-direction="root" routerLink="/home">
+            <ion-icon name="rocket"></ion-icon>
+            Home
+        </ion-button> 
+
+       <!-- <div *ngIf="isVideo(); then #code else #video"></div> -->
+        
+        <ion-button *ngIf="isVideo()" route-direction="forward" routerLink="/video">
+            <ion-icon name="film"></ion-icon>
+            Video
+        </ion-button> 
+        
+        <ion-button *ngIf="!isVideo()" route-direction="back" routerLink="/code">
+            <ion-icon name="code"></ion-icon>
+            Code
+        </ion-button> 
+        
+        
+    </div> 
+    
+</ion-content>

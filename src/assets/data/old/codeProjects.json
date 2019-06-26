@@ -1,0 +1,31 @@
+{
+ "designs": [
+     {
+    "index": 0,
+    "name": "WiFi Weather Master",
+    "vimeoID": "",
+    "shortText": "IoTs",
+    "longText": "Raspberry Pi and Arduino controlled Weather Station. <a id=\"weather\" href=\"./weather\" target=\"_blank\"><b>Weather Fullscreen</b></a>",
+	 "images": ["http://drive.google.com/uc?export=view&id=1G_QuUshWoVLqFg9-h8qV4TE3UP_Kdo7L", "http://drive.google.com/uc?export=view&id=1-CmDIY6JEeLBM94qeEuqS0c_QazcDdtq","http://drive.google.com/uc?export=view&id=14drr7JhYEMibhWuqezMX_bps-zoqIHfq","http://drive.google.com/uc?export=view&id=1Coi4Md1__-4l-ZZjtfE0szXBc3ytGtLI","http://drive.google.com/uc?export=view&id=1CrG6kbC89PkGw56rxSO33BHYK_CPuB0x","http://drive.google.com/uc?export=view&id=1gDh5zwEZ_LRFRzgnWzDqp2ldr8Mz6SAB","http://drive.google.com/uc?export=view&id=1LVI7pMXMOef-l4ijQKmk46J2BKp0a3fu"],
+    "mainImage": "http://drive.google.com/uc?export=view&id=1G_QuUshWoVLqFg9-h8qV4TE3UP_Kdo7L" 
+	},
+	{
+    "index": 1,
+    "name": "Spencer",
+    "vimeoID": "245503377",
+    "shortText": "Game",
+    "longText": "Oh yeah, good game." ,
+	 "images": ["http://drive.google.com/uc?export=view&id=1Bt7QIZ9SdswqUFVawB8jHHs8mUaRziLO"],
+    "mainImage": "../assets/imgs/SpencerGame.jpg"  
+	},     
+	{
+    "index": 2,
+    "name": "The Brew Chamber",
+    "vimeoID": "",
+    "shortText": "Electronics",
+    "longText": "A prototype for an Arduino controlled beer experimenting incubator. The fermentaion takes place in a 2.5 litre Carboy, and its vital signs are monitored by an <a href= &quot;https://www.arduino.cc/&quot; >Arduino</a>. This includes temperature, which is read via a waterproof sensor, and a pressure sensor that sits between the liquid and the Airlock. The Airlock is controlled by a Solenoid that the Arduino regulates according to the actual CO2 pressure built up as a result of the fermentaion. This Prototype is the first step in exploring the relationship between Fermentation and its subsequent pressure. The next step is to look into the possible uses of the expended CO2" ,
+	 "images": ["http://drive.google.com/uc?export=view&id=1HK6A7N1c7FrSIXQ7VdatUizKeCCaU8-I", "http://drive.google.com/uc?export=view&id=1SZIDCWAKNg7xJQ5sAsqMITyGbAZAaDZQ","http://drive.google.com/uc?export=view&id=12IyI9fIHCbPf5UTbuv6K9rPrVwuARCap","http://drive.google.com/uc?export=view&id=14-ZcU9xEmlqBFkgZpCx_QI9jPYHkNfGT","http://drive.google.com/uc?export=view&id=1J126ICP02NmwEu_IPy8k7mkHtT19vnTy","http://drive.google.com/uc?export=view&id=1LaNd4ryw2cP7zQhc4K-AMWmty0Ih59OA","http://drive.google.com/uc?export=view&id=15lFRSbrf1PNu56DHRFHUd3gGwV42d_nJ"],
+    "mainImage": "http://drive.google.com/uc?export=view&id=1HK6A7N1c7FrSIXQ7VdatUizKeCCaU8-I" 
+	}
+	]
+}

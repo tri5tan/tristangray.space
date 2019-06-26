@@ -1,0 +1,164 @@
+{
+ "showreel": [
+     {
+         "id": "v39728347",
+         "name": "Short Film",
+         "shortText": "arbeitsfrei",
+         "poster":   "../assets/imgs/arbeitsfrei_464x260.jpg",
+         "videoURL":  "../assets/vids/arbeitsfrei.mp4",
+         "videoURL2":  "../assets/vids/arbeitsfrei.mp4"
+     },
+     {
+         "id": "v303185665",
+         "name": "Commercial Video",
+         "shortText": "Automated Factory",
+         "poster":   "../assets/imgs/factory_464x260.jpg",
+         "videoURL":  "../assets/vids/factory.mp4",
+         "videoURL2":  "../assets/vids/arbeitsfrei.mp4"
+     },
+     {
+          "id": "v3",
+         "name": "Web Content",
+         "shortText": "Resort Dining",
+         "poster":   "../assets/imgs/foodjourney.jpg",
+         "videoURL":  "../assets/vids/foodjourney.mp4",
+         "videoURL2":  "../assets/vids/arbeitsfrei.mp4"
+     },
+     {
+         "id": "c1",
+         "name": "Game Development",
+         "shortText": "Spencer",
+         "poster":   "../assets/imgs/SpencerGame.jpg",
+         "videoURL":  "../assets/vids/spencer.mp4",
+         "videoURL2":  "../assets/vids/arbeitsfrei.mp4"
+     }
+],
+ "codes":{
+     "0": {
+         "id": 0,
+         "name": "WiFi Weather Station",
+         "vimeoID": "",
+         "shortText": "IoTs",
+         "longText": "<p>Raspberry Pi and Arduino controlled Weather Station. <a id=\"weather\" href=\"./weather\" target=\"_blank\"><b>Weather Fullscreen</b></a></p>",
+         "images": ["http://drive.google.com/uc?export=view&id=1G_QuUshWoVLqFg9-h8qV4TE3UP_Kdo7L", "http://drive.google.com/uc?export=view&id=1-CmDIY6JEeLBM94qeEuqS0c_QazcDdtq","http://drive.google.com/uc?export=view&id=14drr7JhYEMibhWuqezMX_bps-zoqIHfq","http://drive.google.com/uc?export=view&id=1Coi4Md1__-4l-ZZjtfE0szXBc3ytGtLI","http://drive.google.com/uc?export=view&id=1CrG6kbC89PkGw56rxSO33BHYK_CPuB0x","http://drive.google.com/uc?export=view&id=1gDh5zwEZ_LRFRzgnWzDqp2ldr8Mz6SAB","http://drive.google.com/uc?export=view&id=1LVI7pMXMOef-l4ijQKmk46J2BKp0a3fu"],
+         "coverImage": "../assets/imgs/pi_screen.png" 
+     },
+	"1": {
+        "id": 1,
+        "name": "Spencer",
+        "vimeoID": "245503377",
+        "shortText": "Game",
+        "longText": "<p>Role: Programmer</p>Spencer is a 2D game where you must turn off all of the lights so you can get a good nights sleep. It was built in Unity using C#",
+         "images": ["http://drive.google.com/uc?export=view&id=1Bt7QIZ9SdswqUFVawB8jHHs8mUaRziLO"],
+        "coverImage": "../assets/imgs/SpencerGame.jpg"  
+    },     
+	"2": {
+        "id": 2,
+        "name": "The Brew Nest",
+        "vimeoID": "",
+        "shortText": "Electronics",
+        "longText": "A prototype for an Arduino controlled beer experimenting incubator. This project explores the potential use of the excess CO2 that is emitted due to fermentaion. At this stage in the process it is an unneeded byproduct, bottle fermented beer has some remaining active yeast with just enough malt for the yeast to self carbonate the beer under pressure however not too much as to explode the bottle. The fermentaion takes place in a 2.5 litre Carboy, and its vital signs are monitored by an <a href= https://www.arduino.cc/ target=\"_blank\"><b>Arduino</b></a>. This includes temperature, which is read via a waterproof sensor, and a pressure sensor that sits between the liquid and the Airlock. The Airlock is controlled by a Solenoid that the Arduino regulates according to the actual CO2 pressure built up as a result of the fermentaion. This Prototype is the first step in exploring the relationship between Fermentation and its subsequent pressure. The next step is to look into the possible uses of the expended CO2" ,
+         "images": ["http://drive.google.com/uc?export=view&id=1HK6A7N1c7FrSIXQ7VdatUizKeCCaU8-I", "http://drive.google.com/uc?export=view&id=1SZIDCWAKNg7xJQ5sAsqMITyGbAZAaDZQ","http://drive.google.com/uc?export=view&id=12IyI9fIHCbPf5UTbuv6K9rPrVwuARCap","http://drive.google.com/uc?export=view&id=14-ZcU9xEmlqBFkgZpCx_QI9jPYHkNfGT","http://drive.google.com/uc?export=view&id=1J126ICP02NmwEu_IPy8k7mkHtT19vnTy","http://drive.google.com/uc?export=view&id=1LaNd4ryw2cP7zQhc4K-AMWmty0Ih59OA","http://drive.google.com/uc?export=view&id=15lFRSbrf1PNu56DHRFHUd3gGwV42d_nJ"],
+        "coverImage": "../assets/imgs/brew_4_330.jpg" 
+    }
+ },
+"videos": {
+    "303185665": {
+        "rank": 0,
+        "name": "Automated Factory",
+        "vimeoID": "303185665",
+        "vimeoURL": "https://player.vimeo.com/video/303185665",
+        "coverImage":  "../assets/imgs/factory_330x204.jpg",
+        "shortText": "Commercial Video",
+        "longText": "<p>Role: Editor; Camera Operator</p>Filmed for Visy Packaging Thailand to demonstrate their unique automated food packaging facility."
+    },
+    "280280397": {
+        "rank": 1,
+        "name": "Manawa Bay",
+        "vimeoID": "280280397",
+        "vimeoURL": "https://player.vimeo.com/video/280280397",
+        "coverImage":  "../assets/imgs/manawabay_330.jpg",
+        "shortText": "Short Film",
+        "longText": "<p>Role: Assistant Director</p>Filmed in the Coromandel, New Zealand. It was part of the 2018 48-hours film competition where it won the regional award for the Bay of Plenty."
+    },
+    "39728347": {
+        "rank": 2,
+        "name": "arbeitsfrei",
+        "vimeoID": "39728347",
+        "vimeoURL": "https://player.vimeo.com/video/39728347",
+        "coverImage":  "../assets/imgs/arbeitsfrei_330_blue.jpg",
+        "shortText": "Short Film",
+        "longText": "<p>Role: Director, Editor</p>Filmed in Berlin on 16mm. It was awarded Best International Shortfilm at the CGIFF Film Festival in Vancouver, Washington. Arbeitsfrei(workfree) was shot in Berlin it takes an other look at unemployment"
+    },
+    "110957417": {
+        "rank": 3,
+        "name": "Oktober in the Chair",
+        "vimeoID": "110957417",
+        "vimeoURL": "https://player.vimeo.com/video/110957417",
+        "coverImage": "../assets/imgs/oktobersky_330.jpg",
+        "shortText": "Title Sequence",
+        "longText": "Title Sequence for a short film, based on a poem with the same title."
+     },
+    "20514699": {
+        "rank": 4,
+        "name": "Zwang und Zwanglos",
+        "vimeoID": "20514699",
+        "vimeoURL": "https://player.vimeo.com/video/20514699",
+        "coverImage": "../assets/imgs/spacePlaceholder2_330.jpg",
+        "shortText": "Short Film",
+        "longText": "<p>Role: Director, Editor</p>A short Swinger-Club Skit made for the Berlin 1 week film challange"
+     },
+    "74424129": {
+        "rank": 5,
+        "name": "Anticipation",
+        "vimeoID": "74424129",
+        "vimeoURL": "https://player.vimeo.com/video/74424129",  
+        "coverImage": "../assets/imgs/spacePlaceholder2_330.jpg",
+        "shortText": "Short Film",
+        "longText": "University Assignment"
+     },
+     "80867294": {
+        "rank": 6,
+        "name": "MissCommunication",
+        "vimeoID": "80867294",
+        "vimeoURL": "https://player.vimeo.com/video/80867294",  
+        "coverImage": "../assets/imgs/spacePlaceholder_330.jpg",
+        "shortText": "Title Sequence",
+        "longText": "Title Sequence for a short film."
+    },
+    "13540664": {
+        "rank": 7,
+        "name": "KIRS Rowing",
+        "vimeoID": "13540664",
+        "vimeoURL": "https://player.vimeo.com/video/13540664",  
+        "coverImage": "../assets/imgs/spacePlaceholder_330.jpg",
+        "shortText": "Web Commercial",
+        "longText": "<p>Role: Director, Editor</p>KIRS - Kiwi International Rowing Skiffs Ltd Promotional Video"
+    },
+    "25132148": {
+        "rank": 8,
+        "name": "App Solutions",
+        "vimeoID": "25132148", 
+        "vimeoURL": "https://player.vimeo.com/video/25132148",  
+        "coverImage": "../assets/imgs/spacePlaceholder_330.jpg",
+        "shortText": "Web Commercial",
+        "longText": "App Solutions promotional material."
+    },
+   "22132148": {
+        "rank": 9,
+        "name": "African Odyssey",
+        "vimeoID": "22132148",
+        "vimeoURL": "https://player.vimeo.com/video/22132148",
+        "coverImage": "../assets/imgs/spacePlaceholder_330.jpg",
+        "shortText": "Trailer",
+        "longText": "<p>Role: Assistant Editor</p>A documentary following four friends hailing from Whakatane - New Zealand. Going from Cape Town to London, these Kiwi lads take on Africa with their motorbikes. Armed with limited motorcycle experience, funds or planning and plenty of enthusiasm Phillip Anderson, Jeremy Gray, Julian Kardos and Nic Twaddle set out to ride motorbikes from Cape Town to London."
+     }
+},
+"contact":
+     {        
+        "about": "The visual experience has always been something that has captivated me which is why I have developed my skillset around the moving image and interactive technology. I thrive off project based work from video production and editing, to projects that require computer programming. Whether it's frontend development or a hardware prototype. If you need crew for a film, a Video Editor, or a Frontend Developer please don't hesitate to contact me.",
+        "signiture": "- Tristan Gray",
+        "email": "contact@tristangray.space",
+        "image": "../assets/imgs/mountain_540x338.jpg"
+     }
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "index": 0,
+        "name": "arbeitsfrei",
+        "vimeoID": "39728347",
+        "vimeoURL": "https://player.vimeo.com/video/39728347",
+        "image": "../../images/arbeitsfrei_420.jpg",
+        "shortText": "Short Film",
+        "longText": "Filmed in Berlin on 16mm. It was awarded Best International Shortfilm at the CGIFF Film Festival in Vancouver, Washington. Arbeitsfrei(workfree) was shot in Berlin it takes an other look at unemployment"
+    },
+    {
+        "index": 1,
+        "name": "Oktober in the Chair",
+        "vimeoID": "110957417",
+        "vimeoURL": "https://player.vimeo.com/video/110957417",
+        "image": "../../images/oktobersky.png",
+        "shortText": "Title Sequence",
+        "longText": "Title Sequence for a short film, based on a poem with the same title."
+    },
+      {
+        "index": 2,
+        "name": "Zwang und Zwanglos",
+        "vimeoID": "20514699",
+        "vimeoURL": "https://player.vimeo.com/video/20514699",
+        "image": "../../images/videoPlaceholder.jpg",
+        "shortText": "Short Film",
+        "longText": "A short Swinger-Club Skit made for the Berlin 1 week film challange"
+    },
+      {
+        "index": 3,
+        "name": "Anticipation",
+        "vimeoID": "74424129",
+        "vimeoURL": "https://player.vimeo.com/video/74424129",  
+        "image": "../../images/videoPlaceholder.jpg",
+        "shortText": "Short Film",
+        "longText": "University Assignment"
+    },
+      {
+        "index": 4,
+        "name": "MissCommunication",
+        "vimeoID": "80867294",
+        "vimeoURL": "https://player.vimeo.com/video/80867294",  
+        "image": "../../images/videoPlaceholder.jpg",
+        "shortText": "Title Sequence",
+        "longText": "Title Sequence for a short film."
+    },
+      {
+        "index": 5,
+        "name": "KIRS Rowing",
+        "vimeoID": "13540664",
+        "vimeoURL": "https://player.vimeo.com/video/13540664",  
+        "image": "../../images/thumbnails/kirs.png",
+        "shortText": "Web Commercial",
+        "longText": "KIRS - Kiwi International Rowing Skiffs Ltd Promotional Video"
+    },
+      {
+        "index": 6,
+        "name": "App Solutions",
+        "vimeoID": "25132148", 
+        "vimeoURL": "https://player.vimeo.com/video/25132148",  
+        "image": "../../images/videoPlaceholder.jpg",
+        "shortText": "Web Commercial",
+        "longText": "App Solutions promotional material."
+    },
+    {
+        "index": 7,
+        "name": "African Odyssey",
+        "vimeoID": "22132148",
+        "vimeoURL": "https://player.vimeo.com/video/22132148",
+        "image": "../../images/videoPlaceholder.jpg",
+        "shortText": "Trailer",
+        "longText": "A documentary following four friends hailing from Whakatane - New Zealand. Going from Cape Town to London, these Kiwi lads take on Africa with their motorbikes. Armed with limited motorcycle experience, funds or planning and plenty of enthusiasm Phillip Anderson, Jeremy Gray, Julian Kardos and Nic Twaddle set out to ride motorbikes from Cape Town to London."
+    }
+]

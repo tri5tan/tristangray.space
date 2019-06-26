@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+      <a ion-title routerLink="/home" class="mainTitle" slot="start" onmouseover="mouseHome()">
+        <ion-title>tristangray.space<span class="home">/home</span></ion-title>
+    </a>  
+    <!--<ion-title>Code</ion-title>-->
+    <ion-buttons slot="end">
+      <ion-menu-button class="menu"></ion-menu-button>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <!-- <div class="backdrop">contact</div> -->
+    <div justify-content-center class="contactbox">
+        <ion-card class="spacecard">         
+        <ion-grid no-padding>
+        <ion-row justify-content-center>
+            <ion-col no-padding>
+        
+            <!--<img src="../../assets/imgs/mountain_365x226.jpg">-->
+            <img [src]="[contactData.image]">
+            
+               <!-- <div class="card-title">Contact</div>
+                <div class="card-subtitle">Tristan Gray</div>    --> 
+              <!-- 
+            <ion-card-content>    
+                <ion-card-subtitle class="under-subtitle">
+                    <ion-button fill="clear" href="mailto: &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#116;&#114;&#105;&#115;&#116;&#097;&#110;&#103;&#114;&#097;&#121;&#046;&#115;&#112;&#097;&#099;&#101;">
+                    {{contactData.email}}
+                    </ion-button>
+                </ion-card-subtitle> 
+            </ion-card-content>  -->
+       <!--     </ion-col>
+    
+            <ion-col no-padding>-->
+                <p class="about">{{contactData.about}}</p>
+                <p class="signiture">{{contactData.signiture}}</p>
+                
+                
+                
+               <!--  <ion-card-subtitle class="under-subtitle">Contact</ion-card-subtitle> 
+               
+                <ion-button fill="clear" href="mailto: &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#116;&#114;&#105;&#115;&#116;&#097;&#110;&#103;&#114;&#097;&#121;&#046;&#115;&#112;&#097;&#099;&#101;">
+                    <ion-icon name="at"></ion-icon>
+                    <p>{{contactData.email}}</p>
+                </ion-button>    -->
+                
+                 <ion-card-content>    
+                    <ion-card-subtitle class="under-subtitle">
+                        <ion-button fill="clear" href="mailto: &#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#116;&#114;&#105;&#115;&#116;&#097;&#110;&#103;&#114;&#097;&#121;&#046;&#115;&#112;&#097;&#099;&#101;">
+                        {{contactData.email}}
+                        </ion-button>
+                    </ion-card-subtitle> 
+                </ion-card-content> 
+            
+                <div>
+                    <ion-button fill="clear" href="https://vimeo.com/tristangray">
+                        <ion-icon name="logo-vimeo"></ion-icon>
+                      <!--   <p>Vimeo</p>-->
+                    </ion-button> 
+
+                    <ion-button fill="clear" href="https://www.instagram.com/tristanthegray/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                       <!--  <p>Instagram</p>-->
+                    </ion-button> 
+
+                    <ion-button fill="clear" href="https://www.linkedin.com/in/tristangray/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                       <!--  <p>LinkedIn</p>-->
+                    </ion-button> 
+                </div>    
+                
+            </ion-col>    
+        </ion-row>
+        </ion-grid>
+        </ion-card>
+    </div>
+</ion-content>
+
+<!-- 
+ <div id="post"></div>
+  <a href="mailto:%20%20%20&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#116;&#114;&#105;&#115;&#116;&#097;&#110;&#103;&#114;&#097;&#121;&#046;&#115;&#112;&#097;&#099;&#101;">email</a>
+
+
+<script type="text/javascript">eval(unescape("%6c%65%72%66%73%37%37%3d%5b%27%25%36%33%25%36%66%25%36%65%25%37%34%25%36%31%25%36%33%25%37%34%27%2c%5b%27%25%37%33%25%37%30%25%36%31%25%36%33%25%36%35%27%2c%27%25%37%34%25%37%32%25%36%39%25%37%33%25%37%34%25%36%31%25%36%65%25%36%37%25%37%32%25%36%31%25%37%39%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%6a%68%6b%65%62%36%30%3d%75%6e%65%73%63%61%70%65%28%6c%65%72%66%73%37%37%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6a%68%6b%65%62%36%30%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%6c%65%72%66%73%37%37%29%29%3b"));</script>
+-->
